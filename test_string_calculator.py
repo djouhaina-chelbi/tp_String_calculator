@@ -1,5 +1,4 @@
-def test_add_string():
-    add("")
+def test_add_empty_string():
+    assert add("") == 0
 
-def add(numbers: str) -> int:
-    pass
+
