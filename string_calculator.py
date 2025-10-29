@@ -6,4 +6,3 @@ def add(numbers: str) -> int:
     for num in parts:
         total += int(num)
     return total
-
